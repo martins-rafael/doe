@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+/*
+GERAL
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+header,
+main,
+footer {
+    text-align: center;
+}
+
+header,
+.form,
+main {
+    margin: 0 auto 70px;
+    width: 90%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #000000cc;
+}
+
+input,
+button:focus {
+    outline: 0;
+}
+
+/*
+HEADER
+*/
+
+.logo {
+    margin: 70px 0;
+    width: 120px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+header button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4f4f;
+    border: 0;
+    border-radius: 5px;
+}
+
+/*
+SECTION FORM
+*/
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    align-items: center;
+    padding: 16px 64px;
+    background-color: #ff4f4f;
+    border-radius: 5px;
+}
+
+.form h2 {
+    text-align: right;
+    font-size: 18px;
+    color: #ffffffee;
+}
+
+.form input,
+form button {
+    margin-bottom: 4px;
+    padding: 8px 16px;
+    width: 100%;
+    border: 1px solid #ffffff88;
+    border-radius: 5px;
+}
+
+.form input {
+    background-color: transparent;
+}
+
+.form input::placeholder {
+    color: #ffffffaa;
+}
+
+.form button {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+/*
+MAIN
+*/
+
+main h2 {
+    margin-bottom: 70px;
+}
+
+main h2 span {
+    color: #ff4f4f;
+}
+
+.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.blood {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff4f4f;
+}
+
+.blood::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #ff4f4f11;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    transform: rotate(-45deg);
+}
+
+.donor p {
+    margin: 24px 0 64px;
+    font-size: 14px;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+    margin-top: auto;
+    padding: 16px;
+    color: #525252;
+    border-top: 1px solid #ccc;
+}
+
+/*
+JAVASCRIPT
+*/
+
+section.form {
+    transition: all 0.3s;
+}
+
+section.form.hide {
+    margin-top: -70px;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+}
