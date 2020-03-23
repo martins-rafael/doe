@@ -1,10 +1,10 @@
 <h1 align="center">
-<br>
   <img src="logo.png" alt="logo" >
-<br>
-<br>
-MaratonaDev3.0
+
 </h1>
+<h4 align="center">
+  :rocket: MaratonaDev3.0
+</h4>
 
 <p align="center">Site de doação de sangue, desenvolvido durante a MaratonaDev 3.0 da Rocketseat.</p>
 
