@@ -1,11 +1,26 @@
-# MaratonaDev3.0
+<h1 align="center">
+<br>
+  <img src="logo.png" alt="logo" >
+<br>
+<br>
+MaratonaDev3.0
+</h1>
 
-![maratonadev](https://i.ibb.co/XpxLvHg/maratonadev3-0.png)
+<p align="center">Site de doação de sangue, desenvolvido durante a MaratonaDev 3.0 da Rocketseat.</p>
 
-## :rocket: Sobre
-Site de doação de sangue, desenvolvido durante a MaratonaDev 3.0 da Rocketseat.
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+  </a>
+</p>
 
-## :clipboard: Tecnologias
+<br>
+
+<div>
+  <img src="screenshot.png" alt="screenshot" >
+</div>
+
+## :computer: Tecnologias
 - [HTML](https://devdocs.io/html/)
 - [CSS](https://devdocs.io/css/)
 - [Javascript](https://devdocs.io/javascript/)
@@ -14,5 +29,6 @@ Site de doação de sangue, desenvolvido durante a MaratonaDev 3.0 da Rocketseat
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [PostgreSQL](https://www.postgresql.org/)
 
-### :camera: Screenshot
-![mockup](https://i.ibb.co/Kmj3gKB/maratonadev3-mockup.png)
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
