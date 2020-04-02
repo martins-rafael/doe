@@ -16,8 +16,15 @@
 
 <br>
 
-<div>
+<div align="center">
   <img src="screenshot.png" alt="screenshot" >
+</div>
+
+## :clapper: Demo
+O GIF abaixo mostra o site em ação:
+
+<div align="center">
+  <img src="demo.gif" alt="demonstração" >
 </div>
 
 ## :computer: Tecnologias
