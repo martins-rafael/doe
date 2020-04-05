@@ -1,8 +1,9 @@
 <h1 align="center">
- :rocket: MaratonaDev3.0
+  <img src="public/images/logo.png" alt="logo" height="64px" width="auto">
+
 </h1>
 
-<p align="center">Site de doação de sangue, desenvolvido durante a MaratonaDev 3.0 da Rocketseat.</p>
+<p align="center"> :rocket: Site de doação de sangue, desenvolvido durante a MaratonaDev 3.0 da Rocketseat.</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
